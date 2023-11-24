@@ -3,7 +3,6 @@
     color: var(--color-text);
     padding: 5rem 1rem;
     padding-top: 7rem;
-    text-align: center;
 }
 
 .home__avatar{
@@ -15,17 +14,8 @@
     border-radius: 100%;
 }
 
-.home__title{
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
 .home__title--strong{
     color: var(--color-accent);
-}
-
-.home__description{
-    font-size: 1.3rem;
 }
 
 .home__contact{
