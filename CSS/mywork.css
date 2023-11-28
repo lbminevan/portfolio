@@ -89,6 +89,8 @@
     transform: translateY(0);
 }
 
+/*HTML에서 div로 이용해 밑줄 스타일링도 가능하지만 CSS에서
+  after요소를 사용해서도 스타일링이 가능하다 */
 .project__metadata__title::after{
     content: '';
     display: block;
