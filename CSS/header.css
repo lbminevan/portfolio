@@ -1,5 +1,5 @@
 .header{
-    background-color: black;
+    background-color: transparent;
     position: fixed;
     top: 0;
     width: 100%;
@@ -8,6 +8,11 @@
     align-items: center;
     padding: 1rem;
     z-index: 1;
+    
+}
+
+.header--dark{
+    background-color: var(--color-primary);
 }
 
 .header__logo{
